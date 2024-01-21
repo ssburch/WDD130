@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --primary-color: #522a09;
+    --secondary-color: #FBC166;
+    --accent1-color: #185536;
+    --accent2-color: #B2605E;
+
+    --heading-font: 'Climate Crisis', sans-serif; 
+    --paragraph-font: 'Quicksand', sans-serif;
+
+    --nav-background-color: #FBC166;
+    --nav-link-color: #185536;
+    --nav-hover-link-color: #B2605E;
+    --nav-hover-background-color: #FBC166;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1 { 
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+header {
+    padding: 30px;
+    font-size: 1.7rem;
+    background-color: var(--secondary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
