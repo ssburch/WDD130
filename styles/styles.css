@@ -36,6 +36,7 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
     text-align: center;
 }
@@ -53,6 +54,11 @@ footer {
 
 main img {
     float: right;
+}
+
+aside h2 {
+    position: absolute;
+    right: 115px;
 }
 
 
