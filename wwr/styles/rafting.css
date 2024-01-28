@@ -59,10 +59,11 @@ a:link {
 
  h1 {
     position: absolute;
-    top: 25px;
+    top: 100px;
     background: white;
     opacity: 0.8;
     width: 100%;
+    text-align : center;
  
  }
 
@@ -76,18 +77,20 @@ a:link {
  }*/
  article img { 
     position: absolute;
-    float: right;
-    top: 100px;
-    left: 300px;
-    width: 10px;
+    top: 400px;
+    right: 20px;
+    max-width: 25%;
+    max-height: 25%;
  }
 
  article p { 
     position: absolute;
-    top: 500px;
-    left: 200px;
+    top: 400px;
+    left: 20px;
     background: white;
     opacity: 0.8;
+    width: 65%;
+    text-align : left;
  }
 
 
