@@ -111,6 +111,51 @@ nav {
  
  }
 
+ .companyinfo {
+   float: left;
+   text-align: center;
+   border: 1px solid black;
+   padding: 30px;
+ }
+
+ iframe { 
+   width: 500px;
+   height: 400px;
+ }
+
+ .egallery {
+   float: right;
+   text-align: center;
+   border: 1px solid black;
+   padding: 20px;
+ }
+
+ .egallery img {
+   width: 270px;
+   height: 230px;
+   display: block;
+}
+
+ form {
+   text-align: center;
+   clear: both;
+   max-width: 1000px;
+   margin: 10px auto;
+   padding: 5px;
+   background-color: var(--secondary-color);
+   font-family: var(--paragraph-font);
+
+    
+ }
+
+ input[type="submit"] {
+   width: 150px; 
+   height: 40px; 
+   background-color: var(--accent2-color);
+   color: black;
+   border: none; 
+ }
+
  /*article { 
     position: absolute;
     top: 100px;
