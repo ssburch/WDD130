@@ -14,7 +14,9 @@
     --nav-hover-link-color: #B2605E;
     --nav-hover-background-color: #FBC166;
 }
-
+*{
+   font-family: var(--paragraph-font);
+}
 
 h1, h2, h3, h4, h5, h6 {  
     font-family: var(--heading-font);
@@ -24,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 
 }
+
 
 p {
     font-family: var(--paragraph-font);
@@ -46,8 +49,8 @@ a:link {
   }
 
 header {
-	display: flex;
-   justify-content: space-around;
+	display: grid;
+   grid-template-columns: 1fr 2fr;
    align-items: center;
 }
 
@@ -83,6 +86,7 @@ header {
 nav { 
    display: flex;
    list-style: none;
+   justify-content: space-around;
 }
 
   body {
@@ -109,6 +113,10 @@ nav {
     width: 100%;
     text-align : center;
  
+ }
+
+ .contact-page h1 {
+   position: inherit;
  }
 
  .companyinfo {
@@ -188,7 +196,6 @@ nav {
  }
 
  header img {
-   display: grid;
-   gap: 20px;
+   width: 400px;
 
  }

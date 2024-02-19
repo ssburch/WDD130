@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>White Water Rafting | Contact Us Page</title>
+        <title>Sunset Rafting | Contact Us Page</title>
         <link rel="stylesheet" href="styles/rafting.css">
         <meta name="description" content="This is the WDD 130 'Contact Us Page' for the Course Home Page created by student Sarah Burch.">
         <meta name="author" content="Sarah Burch">
@@ -18,7 +18,8 @@
                 <a href="trips.html">Trips</a>
             </nav>
         </header>
-        <main>
+        <main class="contact-page">
+            <h1>Sunset Rafting - Contact Us</h1>
             <section>
                 <div class="companyinfo">
                     <h2>Address</h2>
@@ -29,7 +30,7 @@
                     <p>booking@sunsetraft.com</p>
                     <h5>Map</h5>
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d212931.820588473!2d-111.6314840197266!3d33.499823940155565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1707538921930!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d212931.820588473!2d-111.6314840197266!3d33.499823940155565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1707538921930!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
             <section>
@@ -61,13 +62,18 @@
                 </fieldset>
                 <fieldset>
                     <legend>How can we help you today?</legend>
-                    <label for="select-answer">Choose One:</label>
-                    <select id="select-answer" name="select-answer">
-                        <option value="" selected disabled>Select One:</option>
-                        <option value="one">General Inquiry</option>
-                        <option value="two">Reservation Question</option>
-                        <option value="three">Website Suggestion</option>
-                    </select>
+                    <div>
+                        <input type="radio" id="general-inquiry" name="help-option" value="one">
+                        <label for="general-inquiry">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation-question" name="help-option" value="two">
+                        <label for="reservation-question">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="website-suggestion" name="help-option" value="three">
+                        <label for="website-suggestion">Website Suggestion</label>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <label for="details">Details:</label>
@@ -78,12 +84,14 @@
                     <label for="subscribe">Please subscribe me to the monthly newsletter.</label>
                 </fieldset>
                 <fieldset>
-                    <input type="submit" value="Click To Complete">
+                    <button type="submit">Click To Complete</button>
                 </fieldset>
             </form>
         </main>
         <footer>
-            <p>©️2024 | Sunset Rafting | Sarah Burch</p>
+            <p>©️2024 | Sunset Rafting | Sarah Burch |
+            <a href="https://app.moqups.com/bLGow9pE8QIKmvYWL5KcEf9YfC2KpMkf/view/page/ad64222d5">Wireframe</a>
+            </p>
             <nav class="sociallinks">
                 <a href="https://instagram.com">
                     <img src="images/insta-gram.png" alt="Instagram">
@@ -94,7 +102,6 @@
                 <a href="https://twitter.com">
                     <img src="images/twitter.png" alt="Twitter">
                 </a>
-                <!--<p>https://app.moqups.com/bLGow9pE8QIKmvYWL5KcEf9YfC2KpMkf/view/page/ad64222d5</p>-->
             </nav>
         </footer>
     </body>
