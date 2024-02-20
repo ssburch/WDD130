@@ -212,11 +212,23 @@ div.hero-home-text {
 
  .tripinfo { 
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: repeat(3, 1fr);
    text-align: center;
    border: 1px solid black;
  }
+
+ .tripinfo > * {
+   border: 1px solid black;
+ }
+
+ .tripinfo h3, .tripinfo h4, .tripinfo h5 {
+   grid-column: auto;
+ }
+
+ .tripinfo p {
+   grid-column: span 3;
+ }
+
 
  iframe { 
    width: 500px;
@@ -285,6 +297,8 @@ div.hero-home-text {
  footer, .sociallinks {
    display: flex; 
    justify-content: space-around;
+   padding-top: 15px;
+   padding-bottom: 10px;
  }
 
  header img {
